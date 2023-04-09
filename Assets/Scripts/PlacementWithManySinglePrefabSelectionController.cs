@@ -25,6 +25,9 @@ public class PlacementWithManySinglePrefabSelectionController : MonoBehaviour
     private Button arBlueButton;
 
     [SerializeField]
+    private Toggle deleteButton;
+
+    [SerializeField]
     private Text selectionText;
 
     [SerializeField]
@@ -36,9 +39,9 @@ public class PlacementWithManySinglePrefabSelectionController : MonoBehaviour
     private static List<ARRaycastHit> hits = new List<ARRaycastHit>();
     private PlacementObject lastSelectedObject;
 
-    private const string PREFAB_NAME_1 = "StatueRotation";
-    private const string PREFAB_NAME_2 = "CouchRotation";
-    private const string PREFAB_NAME_3 = "ClosetRotation";
+    private const string PREFAB_STATUE = "StatueRotation";
+    private const string PREFAB_COUCH = "CouchRotation";
+    private const string PREFAB_CLOSET = "ClosetRotation";
 
     private GameObject PlacedPrefab 
     {
@@ -56,10 +59,10 @@ public class PlacementWithManySinglePrefabSelectionController : MonoBehaviour
     void Awake() 
     {
         arRaycastManager = GetComponent<ARRaycastManager>();
-        arGreenButton.onClick.AddListener(() => ChangePrefabTo(PREFAB_NAME_1));
-        arBlueButton.onClick.AddListener(() => ChangePrefabTo(PREFAB_NAME_2));
-        arRedButton.onClick.AddListener(() => ChangePrefabTo(PREFAB_NAME_3));
-        dismissButton.onClick.AddListener(Dismiss);
+        arGreenButton.onClick.AddListener(() => ChangePrefabTo(PREFAB_STATUE));
+        arBlueButton.onClick.AddListener(() => ChangePrefabTo(PREFAB_COUCH));
+        arRedButton.onClick.AddListener(() => ChangePrefabTo(PREFAB_CLOSET));
+        //dismissButton.onClick.AddListener(Dismiss);
     }
 
     void ChangePrefabTo(string prefabName)
@@ -73,14 +76,14 @@ public class PlacementWithManySinglePrefabSelectionController : MonoBehaviour
         
         switch(prefabName)
         {
-            case PREFAB_NAME_1:
-                selectionText.text = $"Selected: <color='blue'>{prefabName}</color>";
+            case PREFAB_STATUE:
+                selectionText.text = "Selected: Statue";
             break;
-            case PREFAB_NAME_2:
-                selectionText.text = $"Selected: <color='red'>{prefabName}</color>";
+            case PREFAB_COUCH:
+                selectionText.text = "Selected: Couch";
             break;
-            case PREFAB_NAME_3:
-                selectionText.text = $"Selected: <color='green'>{prefabName}</color>";
+            case PREFAB_CLOSET:
+                selectionText.text = "Selected: Closet";
             break;
         }
     }
@@ -90,6 +93,7 @@ public class PlacementWithManySinglePrefabSelectionController : MonoBehaviour
 
     void Update()
     {
+        Debug.Log(deleteButton.isOn);
         // do not capture events unless the welcome panel is hidden
         if(welcomePanel.activeSelf)
             return;
@@ -109,14 +113,21 @@ public class PlacementWithManySinglePrefabSelectionController : MonoBehaviour
                     lastSelectedObject = hitObject.transform.GetComponent<PlacementObject>();
                     if(lastSelectedObject != null)
                     {
-                        PlacementObject[] allOtherObjects = FindObjectsOfType<PlacementObject>();
-                        foreach(PlacementObject placementObject in allOtherObjects)
+                        if (deleteButton.isOn)
                         {
-                            if(placementObject != lastSelectedObject){
-                                placementObject.Selected = false;
+                            Destroy(hitObject.transform.gameObject);
+                        } 
+                        else
+                        {
+                            PlacementObject[] allOtherObjects = FindObjectsOfType<PlacementObject>();
+                            foreach(PlacementObject placementObject in allOtherObjects)
+                            {
+                                if(placementObject != lastSelectedObject){
+                                    placementObject.Selected = false;
+                                }
+                                else
+                                    placementObject.Selected = true;
                             }
-                            else
-                                placementObject.Selected = true;
                         }
                     }
                 }
@@ -124,7 +135,7 @@ public class PlacementWithManySinglePrefabSelectionController : MonoBehaviour
                 {
                     Pose hitPose = hits[0].pose;
 
-                    if(lastSelectedObject == null)
+                    if(lastSelectedObject == null && !deleteButton.isOn)
                     {
                         lastSelectedObject = Instantiate(placedPrefab, hitPose.position, hitPose.rotation).GetComponent<PlacementObject>();
                     }

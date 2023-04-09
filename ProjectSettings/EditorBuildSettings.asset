@@ -18,9 +18,6 @@ EditorBuildSettings:
     path: Assets/Scenes/ImageTrackingExtended.unity
     guid: 31833147878fa4526a5e1e69db5f1ad1
   - enabled: 0
-    path: Assets/Scenes/DraggingAndDropping.unity
-    guid: 178c7cc8fe57e445aa05f8b0374731f4
-  - enabled: 0
     path: Assets/Scenes/DraggingAndDroppingMultiple.unity
     guid: 01d048e9bb2184c3eb378a6f810c0751
   - enabled: 0
