@@ -35,9 +35,9 @@ public class PlacementControllerWithMultiple : MonoBehaviour
         // set initial prefab
         ChangePrefabTo("ARBlue");
 
-        arGreenButton.onClick.AddListener(() => ChangePrefabTo("ARGreen"));
-        arBlueButton.onClick.AddListener(() => ChangePrefabTo("ARBlue"));
-        arRedButton.onClick.AddListener(() => ChangePrefabTo("ARRed"));
+        arGreenButton.onClick.AddListener(() => ChangePrefabTo("fotel"));
+        arBlueButton.onClick.AddListener(() => ChangePrefabTo("couch"));
+        arRedButton.onClick.AddListener(() => ChangePrefabTo("closet"));
         dismissButton.onClick.AddListener(Dismiss);
     }
 
@@ -54,13 +54,13 @@ public class PlacementControllerWithMultiple : MonoBehaviour
         
         switch(prefabName)
         {
-            case "ARBlue":
+            case "fotel":
                 selectionText.text = $"Selected: <color='blue'>{prefabName}</color>";
             break;
-            case "ARRed":
+            case "closet":
                 selectionText.text = $"Selected: <color='red'>{prefabName}</color>";
             break;
-            case "ARGreen":
+            case "couch":
                 selectionText.text = $"Selected: <color='green'>{prefabName}</color>";
             break;
         }

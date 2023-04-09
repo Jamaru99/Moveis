@@ -16,19 +16,29 @@ public class PlacementWithManySinglePrefabSelectionController : MonoBehaviour
     private Button dismissButton;
 
     [SerializeField]
+    private Button arGreenButton;
+
+    [SerializeField]
+    private Button arRedButton;
+
+    [SerializeField]
+    private Button arBlueButton;
+
+    [SerializeField]
+    private Text selectionText;
+
+    [SerializeField]
     private Camera arCamera;
 
-    private GameObject placedObject;
-
     private Vector2 touchPosition = default;
-
     private ARRaycastManager arRaycastManager;
-
     private bool onTouchHold = false;
-
     private static List<ARRaycastHit> hits = new List<ARRaycastHit>();
-
     private PlacementObject lastSelectedObject;
+
+    private const string PREFAB_NAME_1 = "StatueRotation";
+    private const string PREFAB_NAME_2 = "CouchRotation";
+    private const string PREFAB_NAME_3 = "ClosetRotation";
 
     private GameObject PlacedPrefab 
     {
@@ -46,8 +56,35 @@ public class PlacementWithManySinglePrefabSelectionController : MonoBehaviour
     void Awake() 
     {
         arRaycastManager = GetComponent<ARRaycastManager>();
+        arGreenButton.onClick.AddListener(() => ChangePrefabTo(PREFAB_NAME_1));
+        arBlueButton.onClick.AddListener(() => ChangePrefabTo(PREFAB_NAME_2));
+        arRedButton.onClick.AddListener(() => ChangePrefabTo(PREFAB_NAME_3));
         dismissButton.onClick.AddListener(Dismiss);
     }
+
+    void ChangePrefabTo(string prefabName)
+    {
+        placedPrefab = Resources.Load<GameObject>($"Prefabs/{prefabName}");
+
+        if(placedPrefab == null)
+        {
+            Debug.LogError($"Prefab with name {prefabName} could not be loaded, make sure you check the naming of your prefabs...");
+        }
+        
+        switch(prefabName)
+        {
+            case PREFAB_NAME_1:
+                selectionText.text = $"Selected: <color='blue'>{prefabName}</color>";
+            break;
+            case PREFAB_NAME_2:
+                selectionText.text = $"Selected: <color='red'>{prefabName}</color>";
+            break;
+            case PREFAB_NAME_3:
+                selectionText.text = $"Selected: <color='green'>{prefabName}</color>";
+            break;
+        }
+    }
+
 
     private void Dismiss() => welcomePanel.SetActive(false);
 
