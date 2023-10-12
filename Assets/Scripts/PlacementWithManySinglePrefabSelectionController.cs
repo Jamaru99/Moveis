@@ -22,6 +22,9 @@ public class PlacementWithManySinglePrefabSelectionController : MonoBehaviour
     private Button arRedButton;
 
     [SerializeField]
+    private Button screenshotButton;
+
+    [SerializeField]
     private Button arBlueButton;
 
     [SerializeField]
@@ -39,7 +42,7 @@ public class PlacementWithManySinglePrefabSelectionController : MonoBehaviour
     private static List<ARRaycastHit> hits = new List<ARRaycastHit>();
     private PlacementObject lastSelectedObject;
 
-    private const string PREFAB_STATUE = "StatueRotation";
+    private const string PREFAB_CHAIR = "ChairRotation";
     private const string PREFAB_COUCH = "CouchRotation";
     private const string PREFAB_CLOSET = "ClosetRotation";
 
@@ -59,9 +62,10 @@ public class PlacementWithManySinglePrefabSelectionController : MonoBehaviour
     void Awake() 
     {
         arRaycastManager = GetComponent<ARRaycastManager>();
-        arGreenButton.onClick.AddListener(() => ChangePrefabTo(PREFAB_STATUE));
+        arGreenButton.onClick.AddListener(() => ChangePrefabTo(PREFAB_CHAIR));
         arBlueButton.onClick.AddListener(() => ChangePrefabTo(PREFAB_COUCH));
         arRedButton.onClick.AddListener(() => ChangePrefabTo(PREFAB_CLOSET));
+        screenshotButton.onClick.AddListener(() => TakeScreenshot());
         //dismissButton.onClick.AddListener(Dismiss);
     }
 
@@ -76,8 +80,8 @@ public class PlacementWithManySinglePrefabSelectionController : MonoBehaviour
         
         switch(prefabName)
         {
-            case PREFAB_STATUE:
-                selectionText.text = "Selected: Statue";
+            case PREFAB_CHAIR:
+                selectionText.text = "Selected: Chair";
             break;
             case PREFAB_COUCH:
                 selectionText.text = "Selected: Couch";
@@ -88,6 +92,9 @@ public class PlacementWithManySinglePrefabSelectionController : MonoBehaviour
         }
     }
 
+    void TakeScreenshot() {
+        ScreenCapture.CaptureScreenshot("MovelRA.png");
+    } 
 
     private void Dismiss() => welcomePanel.SetActive(false);
 
