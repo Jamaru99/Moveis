@@ -1,0 +1,978 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'pt' Physical Memory: 12202 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/mathe/OneDrive/Documentos/Projetos de Aplicativos/UnityARFoundationEssentials-master
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+57330
+Successfully changed project path to: C:/Users/mathe/OneDrive/Documentos/Projetos de Aplicativos/UnityARFoundationEssentials-master
+C:/Users/mathe/OneDrive/Documentos/Projetos de Aplicativos/UnityARFoundationEssentials-master
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 451.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/mathe/OneDrive/Documentos/Projetos de Aplicativos/UnityARFoundationEssentials-master/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce MX110 (ID=0x174e)
+    Vendor:   NVIDIA
+    VRAM:     2008 MB
+    Driver:   31.0.15.3699
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56916
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.012711 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 70.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.756 seconds
+Domain Reload Profiling:
+	ReloadAssembly (757ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (521ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (133ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (298ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (70ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (71ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (104ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014577 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 71.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.827 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1827ms)
+		BeginReloadAssembly (252ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (121ms)
+		EndReloadAssembly (1405ms)
+			LoadAssemblies (130ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (265ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (907ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (71ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (519ms)
+				ProcessInitializeOnLoadMethodAttributes (152ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3323 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 135 unused Assets / (132.6 KB). Loaded Objects now: 3759.
+Memory consumption went from 129.7 MB to 129.5 MB.
+Total: 17.004900 ms (FindLiveObjects: 0.548900 ms CreateObjectMapping: 0.377800 ms MarkObjects: 15.563000 ms  DeleteObjects: 0.512600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 563.366793 seconds.
+  path: Assets/AssetStore
+  artifactKey: Guid(64cca720ca0ba4e5f83cae2442ba5ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore using Guid(64cca720ca0ba4e5f83cae2442ba5ca2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '131283a76b76f6d4c6a0901f155793e6') in 0.024375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1014.980204 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Acoustic_System_1.prefab
+  artifactKey: Guid(ffd43e9e2647d674a8abcae38483115e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Acoustic_System_1.prefab using Guid(ffd43e9e2647d674a8abcae38483115e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1236f697326b2633d6a023a1e0acb02') in 0.415818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Modular_Bench_Angle.prefab
+  artifactKey: Guid(8b51d6c71e08538439e9cf437e26baad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Modular_Bench_Angle.prefab using Guid(8b51d6c71e08538439e9cf437e26baad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf93bd42646e53f4dfa8b6726c14be2') in 0.202187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Couch_2.prefab
+  artifactKey: Guid(1ff9ecc60307eb64690d9ab2b725be36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Couch_2.prefab using Guid(1ff9ecc60307eb64690d9ab2b725be36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5422c1c62e6e94bd16e8b5100dc169') in 0.092297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Chair_7.prefab
+  artifactKey: Guid(73ab2dbbaaae2ee4f83fa42dfc773471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Chair_7.prefab using Guid(73ab2dbbaaae2ee4f83fa42dfc773471) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee6a2123852817b50ea07a14f096850f') in 0.060726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Couch_1.prefab
+  artifactKey: Guid(45085e3c88309294697d50880d3411fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Couch_1.prefab using Guid(45085e3c88309294697d50880d3411fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464dc0c1493527e1a63822e6f38200d0') in 0.087199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Cupboard_Base.prefab
+  artifactKey: Guid(056374d4a4e8d1a458d1853aae96dba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Cupboard_Base.prefab using Guid(056374d4a4e8d1a458d1853aae96dba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c529ec1705479d9f0e4013f771b55b0') in 0.097384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Mirror_3.prefab
+  artifactKey: Guid(ec9920b6fa3e3574ca22c63085d32c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Mirror_3.prefab using Guid(ec9920b6fa3e3574ca22c63085d32c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4916cb9367b52a3ee0ac01f2a8ba45fe') in 0.070543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Armchair_5.prefab
+  artifactKey: Guid(20d3dde8cb6caa949ae3dd226db73e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Armchair_5.prefab using Guid(20d3dde8cb6caa949ae3dd226db73e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8164a472e0dc73d1e60a2e1444c8ca0') in 0.088889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Armchair_1.prefab
+  artifactKey: Guid(d347d24ae24134546924e5d62d18a270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Armchair_1.prefab using Guid(d347d24ae24134546924e5d62d18a270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c730dbec207e2fcfb073caa73406b7') in 0.092931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Daybed.prefab
+  artifactKey: Guid(623556a2e8ee71e4fa3cbe73c6be49d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Daybed.prefab using Guid(623556a2e8ee71e4fa3cbe73c6be49d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626e25fe16d41020908f3ad95261258c') in 0.087894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Chandelier_5.prefab
+  artifactKey: Guid(1031122f96bae7e4788d1845e4598593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Chandelier_5.prefab using Guid(1031122f96bae7e4788d1845e4598593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f7d47fdec374cda9713a0b8bda6a22a') in 0.154381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Console_2.prefab
+  artifactKey: Guid(bace420a67cc25143b3270500e5b9c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Console_2.prefab using Guid(bace420a67cc25143b3270500e5b9c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c14369d063de57cffd349a84d39da1de') in 0.078090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Armchair_4.prefab
+  artifactKey: Guid(605122a33f111fd4f9bedf9b3512b7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Armchair_4.prefab using Guid(605122a33f111fd4f9bedf9b3512b7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca1f4ae8c86106d5c18ebc3e0e53a43') in 0.074920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Chandelier_2.prefab
+  artifactKey: Guid(78d0443a3c14b6d4db9103d21b155498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Chandelier_2.prefab using Guid(78d0443a3c14b6d4db9103d21b155498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6125769f4abd200453717fcd0f04d1') in 0.098561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Kitchen_Table_5.prefab
+  artifactKey: Guid(5d45a0342bc5f6747a5c251521994cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Kitchen_Table_5.prefab using Guid(5d45a0342bc5f6747a5c251521994cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaca4b26f06d3552b851ded57e60a541') in 0.107756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Modular_Sofa_Vertical.prefab
+  artifactKey: Guid(bec9bae6e89e0e741bfc3bbcc8d6accd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Modular_Sofa_Vertical.prefab using Guid(bec9bae6e89e0e741bfc3bbcc8d6accd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8b102e082948ba8732ad76c69abcba7') in 0.095428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Dining_Table_1.prefab
+  artifactKey: Guid(33d8bb24c3a6e6e40b1b004b27f18d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Dining_Table_1.prefab using Guid(33d8bb24c3a6e6e40b1b004b27f18d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9504b2fc1b64a65b3df8bdf92425ef0a') in 0.089044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Chair_1.prefab
+  artifactKey: Guid(830cbf92a4739064d827c02442f2323e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Chair_1.prefab using Guid(830cbf92a4739064d827c02442f2323e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61301b2baa0cf5bd26efc2359171020e') in 0.086205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Bookcase_1.prefab
+  artifactKey: Guid(67c11decbdb27b64aae99e48b91316f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Bookcase_1.prefab using Guid(67c11decbdb27b64aae99e48b91316f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8097ac16bfd06a5fd2578780eb278f7') in 0.266094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Chair_5.prefab
+  artifactKey: Guid(3e930b5ae71558847974e723376416f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Chair_5.prefab using Guid(3e930b5ae71558847974e723376416f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b62dcdbb838a4cc05175e8bae1c129') in 0.107261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Chandelier_1.prefab
+  artifactKey: Guid(6ddddf0ff6e54e2499624ff60e5f3550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Chandelier_1.prefab using Guid(6ddddf0ff6e54e2499624ff60e5f3550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '779649c2255dabb61bc0fbc0c8d078ca') in 0.112505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Console_3.prefab
+  artifactKey: Guid(ab6797f9424804a479af1b2420f1e971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Console_3.prefab using Guid(ab6797f9424804a479af1b2420f1e971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4506a690d3fffb5d796a40c239f5d3') in 0.077975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Chair_6.prefab
+  artifactKey: Guid(0aa99fc3adf76594eb67d1475a311328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Chair_6.prefab using Guid(0aa99fc3adf76594eb67d1475a311328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b0785d80c874f401a5360b3b8a796d') in 0.070723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Console_1.prefab
+  artifactKey: Guid(3aa561ff41db2094da7e4184c409b868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Console_1.prefab using Guid(3aa561ff41db2094da7e4184c409b868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88838bea4765807aeb5cc1ad4c19ad45') in 0.085159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Armchair_2.prefab
+  artifactKey: Guid(6b97ddfa5d6f8b246af44ace27347bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Armchair_2.prefab using Guid(6b97ddfa5d6f8b246af44ace27347bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc531246e5f79c66e27e672986c50469') in 0.083872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Chandelier_3.prefab
+  artifactKey: Guid(8707309ab37b2984c9ce0d256e6cf5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Chandelier_3.prefab using Guid(8707309ab37b2984c9ce0d256e6cf5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b7dc91a2c9327dfa89963c924894678') in 0.084540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Lamp.prefab
+  artifactKey: Guid(e7adc5ad67fb9704588ebc686c5e59e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Lamp.prefab using Guid(e7adc5ad67fb9704588ebc686c5e59e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c8e1504d77a362b0651733eecad23e9') in 0.050770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Kitchen_Cabinet_Up.prefab
+  artifactKey: Guid(cfe19d9e308fd5a4085266dbdb2316a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Kitchen_Cabinet_Up.prefab using Guid(cfe19d9e308fd5a4085266dbdb2316a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a74d75e98c817277c7d51aed98eec017') in 0.078517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Kitchen_Table_1.prefab
+  artifactKey: Guid(e8ff5cda4a951cc498ae6b8e2bee5196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Kitchen_Table_1.prefab using Guid(e8ff5cda4a951cc498ae6b8e2bee5196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63cba164a580e8ae109d1a08438643a4') in 0.093584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Fridge.prefab
+  artifactKey: Guid(e73ea3d6c1c7a174d90610d74b85220d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Fridge.prefab using Guid(e73ea3d6c1c7a174d90610d74b85220d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7091e416c8f1d8ba3a17a0a52775b2b') in 0.082559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Hand_Dryer.prefab
+  artifactKey: Guid(f0190191b0169cb4daf524f846886205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Hand_Dryer.prefab using Guid(f0190191b0169cb4daf524f846886205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2316d6bcdc36a5485e57547c061bc63b') in 0.079197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.149340 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Office_Armchair_3.prefab
+  artifactKey: Guid(e3fec3c22d8df784fa33a336e5f0fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Office_Armchair_3.prefab using Guid(e3fec3c22d8df784fa33a336e5f0fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3873b4e3e5aa816041dd4a71fa671292') in 0.127841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Tub.prefab
+  artifactKey: Guid(0bb8935f270bc82409e8968ac666808d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Tub.prefab using Guid(0bb8935f270bc82409e8968ac666808d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2a76ad81ab40625432c7bfc9f9b651a') in 0.075466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Sconce_1.prefab
+  artifactKey: Guid(b65ef34a17009fc4b9c6776307b0446e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Sconce_1.prefab using Guid(b65ef34a17009fc4b9c6776307b0446e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eaef5b091de6c61e11d1ebac453725e') in 0.053002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Twist_Candlestick_1.prefab
+  artifactKey: Guid(109f6dabbb345c140825bec3d582a353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Twist_Candlestick_1.prefab using Guid(109f6dabbb345c140825bec3d582a353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a5dac06da488e1404832434035ab0e5') in 0.067498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Tap_1.prefab
+  artifactKey: Guid(7c3ac8817f72a84418d0dbc9d86ff558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Tap_1.prefab using Guid(7c3ac8817f72a84418d0dbc9d86ff558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '833258fc6062f1b0621a97f679fc02fb') in 0.048739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Towel_Dryer_2.prefab
+  artifactKey: Guid(bf3750b409daed846a2c5794dd58fe38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Towel_Dryer_2.prefab using Guid(bf3750b409daed846a2c5794dd58fe38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69113a4ad1d9d3ff247129b86f9b0920') in 0.091565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Towel_Dryer_1.prefab
+  artifactKey: Guid(37f5129535a6a544ab2b94198a1ad07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Towel_Dryer_1.prefab using Guid(37f5129535a6a544ab2b94198a1ad07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688964374e70af26a84a96fb823c533c') in 0.078958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Sofa_1.prefab
+  artifactKey: Guid(be8885c12a0d72d49b120b5269f56109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Sofa_1.prefab using Guid(be8885c12a0d72d49b120b5269f56109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02759a1ecaec620707c9383dbb85ccd1') in 0.095959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Twist_Candlestick_3.prefab
+  artifactKey: Guid(93e2525d24f56a44c89cdf3a4b1084f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Twist_Candlestick_3.prefab using Guid(93e2525d24f56a44c89cdf3a4b1084f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9833595abd1d8e07fa313424e8710aaf') in 0.056561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Sofa_2.prefab
+  artifactKey: Guid(35842ccafedceef488882a9fa2694c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Sofa_2.prefab using Guid(35842ccafedceef488882a9fa2694c2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31313e73b302d38146bd6ccc561fc68a') in 0.089166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Sofa_3.prefab
+  artifactKey: Guid(a780a2cd0d4968346a8915fd497c716f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Sofa_3.prefab using Guid(a780a2cd0d4968346a8915fd497c716f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c763d2b4534dda0cc8a46f2ba3c4e1') in 0.091147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Office_Table.prefab
+  artifactKey: Guid(7ee2f4822e69f8d45b4208dc7fd37f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Office_Table.prefab using Guid(7ee2f4822e69f8d45b4208dc7fd37f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800ab766f36884e8f31e35d86584cf64') in 0.080497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Tap_2.prefab
+  artifactKey: Guid(59c9c077ac0267c449100685572d065e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Prefabs/RFAIPP_Tap_2.prefab using Guid(59c9c077ac0267c449100685572d065e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9339890dfce5680616ee3f1ef26974e') in 0.042879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.235020 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Kitchen_Table_2.mat
+  artifactKey: Guid(8115caa00c35932478304493d774d987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Kitchen_Table_2.mat using Guid(8115caa00c35932478304493d774d987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eca0c24cb0973b243fc3c5d0fb0a449') in 0.086188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Office_Table.mat
+  artifactKey: Guid(f936966bc5ef8814e96a3806a3953277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Office_Table.mat using Guid(f936966bc5ef8814e96a3806a3953277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c47ad9d264da6db4af9ce85c79f673') in 0.066216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Office_Armchair_3.mat
+  artifactKey: Guid(ce0ba2f876a4b0d4081eddb08aae09d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Office_Armchair_3.mat using Guid(ce0ba2f876a4b0d4081eddb08aae09d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79113f02c73de484b3dd26176c715ea') in 0.066014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Sofa_3.mat
+  artifactKey: Guid(05c4e0ff390cf004e82e2fcf1544de3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Sofa_3.mat using Guid(05c4e0ff390cf004e82e2fcf1544de3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51aabd6702d62d7716f28e973e7065cb') in 0.071015 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Pissoir.mat
+  artifactKey: Guid(e056e47a933a68c44856d41d833579f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Pissoir.mat using Guid(e056e47a933a68c44856d41d833579f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78d2e1f201ae3d97298162ad79e0b39c') in 0.043055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Sculpture.mat
+  artifactKey: Guid(4fbab39fd472fa448be32f8f4717c8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Sculpture.mat using Guid(4fbab39fd472fa448be32f8f4717c8a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0bb5ee9243cf13ea7f8d83da76ca0dd') in 0.053406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Office_Armchair_4.mat
+  artifactKey: Guid(866a5792062b00d40bc27721e18e3536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Office_Armchair_4.mat using Guid(866a5792062b00d40bc27721e18e3536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f267da3dc9a9fb764cdfceb00fb02b') in 0.060147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Sconce_2.mat
+  artifactKey: Guid(fd36ed48ec39c454e91d63aaf5ebf329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Sconce_2.mat using Guid(fd36ed48ec39c454e91d63aaf5ebf329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88903f4e120c5971d6ac07098a1d3a0b') in 0.030956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Mirror_1.mat
+  artifactKey: Guid(88078323ee2e271439a4b783d44f7684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Mirror_1.mat using Guid(88078323ee2e271439a4b783d44f7684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9705a97da61092fa3e29037f86166b') in 0.062342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Kitchen_Table_5.mat
+  artifactKey: Guid(48dc947368cefbe40b607cde61928844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Kitchen_Table_5.mat using Guid(48dc947368cefbe40b607cde61928844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17423fb711b03254430e40dae67b0fa5') in 0.070752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Tap_2.mat
+  artifactKey: Guid(d74cf6d5df6aae942a8e2a08f22769a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Tap_2.mat using Guid(d74cf6d5df6aae942a8e2a08f22769a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf492bf598ece51cf5c5114ae6524e3') in 0.041259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Shower_1.mat
+  artifactKey: Guid(5fd305b777b7f12419414b8cab761d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Shower_1.mat using Guid(5fd305b777b7f12419414b8cab761d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8337a7042d7d10b03e161550dfbda6c') in 0.055989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Kitchen_Table_4.mat
+  artifactKey: Guid(164a7f3fb63fae440ae5d4ac9b42e5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Kitchen_Table_4.mat using Guid(164a7f3fb63fae440ae5d4ac9b42e5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa726b16ab787969c632732285d791a') in 0.059191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Twist_Candlestick.mat
+  artifactKey: Guid(eacd0f0d77ab84942993fa41fd836fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Twist_Candlestick.mat using Guid(eacd0f0d77ab84942993fa41fd836fa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a42a50637ea88d6688e68c56f1fca8f') in 0.062886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Toilet.mat
+  artifactKey: Guid(129b8a7e707d3844d86ac22c4a3afef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Toilet.mat using Guid(129b8a7e707d3844d86ac22c4a3afef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353960e6e34706e01f6c4dc1e10a6588') in 0.038103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Tap_1.mat
+  artifactKey: Guid(47ee6ef50a7d3ae48b8d43cbbc36e696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Tap_1.mat using Guid(47ee6ef50a7d3ae48b8d43cbbc36e696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb33777bfefba35c9fb53809bb6337d') in 0.039362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Sconce_1.mat
+  artifactKey: Guid(2c848b79113edcd478d68331fb27ef35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Sconce_1.mat using Guid(2c848b79113edcd478d68331fb27ef35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c24283ad650ee86c00c8605e55e7ff') in 0.037794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Sofa_2.mat
+  artifactKey: Guid(4b5c29f5119dfe642a60630389ab0850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Sofa_2.mat using Guid(4b5c29f5119dfe642a60630389ab0850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f9a35027a59f2a05b0d8f87cf86376') in 0.077411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.508739 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/RFAIPP_Demo_Scene.unity
+  artifactKey: Guid(a5280b771776ba8448c4f916e3497376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/RFAIPP_Demo_Scene.unity using Guid(a5280b771776ba8448c4f916e3497376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '357cced0d8ea270694196371bf0743f2') in 0.010530 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008009 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.247 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2248ms)
+		BeginReloadAssembly (326ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (91ms)
+		EndReloadAssembly (1665ms)
+			LoadAssemblies (233ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (412ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (915ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (52ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (194ms)
+				ProcessInitializeOnLoadAttributes (411ms)
+				ProcessInitializeOnLoadMethodAttributes (241ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 11.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3272 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (105.8 KB). Loaded Objects now: 3804.
+Memory consumption went from 130.4 MB to 130.3 MB.
+Total: 9.255300 ms (FindLiveObjects: 0.362500 ms CreateObjectMapping: 0.240700 ms MarkObjects: 8.489300 ms  DeleteObjects: 0.160900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 487.747768 seconds.
+  path: Assets/Resources/Prefabs/CouchRotationOld.prefab
+  artifactKey: Guid(a2fbb33e83ba81449b93f6fa5127a282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/CouchRotationOld.prefab using Guid(a2fbb33e83ba81449b93f6fa5127a282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c90649dd7905ab723f9b5629ee8a0c16') in 0.269017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.289657 seconds.
+  path: Assets/Resources/Prefabs/CouchRotation.prefab
+  artifactKey: Guid(be8885c12a0d72d49b120b5269f56109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/CouchRotation.prefab using Guid(be8885c12a0d72d49b120b5269f56109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9302b3bc5ce4ae8a7fef0873969ed72b') in 0.082295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 182.392468 seconds.
+  path: Assets/Resources/Prefabs/ClosetRotationOld.prefab
+  artifactKey: Guid(0eaa5dd106d34f7409317d97023391c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/ClosetRotationOld.prefab using Guid(0eaa5dd106d34f7409317d97023391c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c6150023e848b039f817d4794e036c') in 0.182160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.335803 seconds.
+  path: Assets/Resources/Prefabs/ClosetRotation.prefab
+  artifactKey: Guid(cfe19d9e308fd5a4085266dbdb2316a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/ClosetRotation.prefab using Guid(cfe19d9e308fd5a4085266dbdb2316a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f8cb2247835338ff6baa0efd9586f6') in 0.082840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.453753 seconds.
+  path: Assets/Resources/Prefabs/ChairRotation.prefab
+  artifactKey: Guid(a866879c23c350c43807e9106fc2138d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/ChairRotation.prefab using Guid(a866879c23c350c43807e9106fc2138d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a60e9628ef948143d78354f2aee31d46') in 0.083026 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006788 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.298 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1298ms)
+		BeginReloadAssembly (173ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1007ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (232ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (565ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (259ms)
+				ProcessInitializeOnLoadMethodAttributes (166ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3272 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (97.9 KB). Loaded Objects now: 3808.
+Memory consumption went from 130.4 MB to 130.3 MB.
+Total: 7.432000 ms (FindLiveObjects: 0.339900 ms CreateObjectMapping: 0.241600 ms MarkObjects: 6.683200 ms  DeleteObjects: 0.165900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 56.411363 seconds.
+  path: Assets/Scenes/StatueSelectionWithRotation.unity
+  artifactKey: Guid(a886d8e9231b445f5ab6be40063f2d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StatueSelectionWithRotation.unity using Guid(a886d8e9231b445f5ab6be40063f2d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e87d9ba0660504dfc2ade255aca7923') in 0.020653 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 19.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 52 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (77.9 KB). Loaded Objects now: 3809.
+Memory consumption went from 64.6 MB to 64.6 MB.
+Total: 10.529400 ms (FindLiveObjects: 0.394200 ms CreateObjectMapping: 0.304800 ms MarkObjects: 9.681700 ms  DeleteObjects: 0.147500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 296.431848 seconds.
+  path: Assets/Furniture/Prefabs
+  artifactKey: Guid(45c2a299a6f4ee04c8387fa92bd7540a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Furniture/Prefabs using Guid(45c2a299a6f4ee04c8387fa92bd7540a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ccaae678fe27967b9143bdee9166841') in 0.014462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.004218 seconds.
+  path: Assets/AssetStore/48 Particle Effect Pack
+  artifactKey: Guid(696b8922d247c4e75965937f14b790b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/48 Particle Effect Pack using Guid(696b8922d247c4e75965937f14b790b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2c8e5796ae0174dd053ea71c56397b') in 0.012550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.561437 seconds.
+  path: Assets/AssetStore/48 Particle Effect Pack/DemoScense
+  artifactKey: Guid(bf6784633ac7994418bc4943edefda98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetStore/48 Particle Effect Pack/DemoScense using Guid(bf6784633ac7994418bc4943edefda98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc92bbdfead43b61c3fb90fae7b278d') in 0.011848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 318.734190 seconds.
+  path: Assets/Scenes/DraggingAndDroppingSettings.lighting
+  artifactKey: Guid(98063ab5b057cd94fb5167eea4f55407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/DraggingAndDroppingSettings.lighting using Guid(98063ab5b057cd94fb5167eea4f55407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e83a9f295336de427af9c39890eefda') in 0.017993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.534026 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Acoustic_System.mat
+  artifactKey: Guid(b408e635d10525a43836b4cbfcc30b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Acoustic_System.mat using Guid(b408e635d10525a43836b4cbfcc30b41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '087fd8395c103ce53681d83730db5390') in 0.179622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Cupboard.mat
+  artifactKey: Guid(c9f5026f57ee5484a9dbbbe08ccf033c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Cupboard.mat using Guid(c9f5026f57ee5484a9dbbbe08ccf033c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52da655bb482ba9219334901ab7b2df4') in 0.096845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Chandelier_3.mat
+  artifactKey: Guid(3b8e5207286cae143b535a2c193d182b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Chandelier_3.mat using Guid(3b8e5207286cae143b535a2c193d182b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0de6546e190a2bc00b958b5698930c8') in 0.071226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Chair_6.mat
+  artifactKey: Guid(b366d154f4f3d4f4396656ef08634644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Chair_6.mat using Guid(b366d154f4f3d4f4396656ef08634644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7be00a089103199a07cfa347c609a6') in 0.070061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Couch_2.mat
+  artifactKey: Guid(02ff9bb03a079ff48912a885edaa637d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Couch_2.mat using Guid(02ff9bb03a079ff48912a885edaa637d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888162d21f7ced03cc0f5e20064c5972') in 0.093271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Coffee_Table_1.mat
+  artifactKey: Guid(6cab5062505cac84189a773b5f8cb3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Coffee_Table_1.mat using Guid(6cab5062505cac84189a773b5f8cb3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e731a15261c7abe362d2235ee74ebf2d') in 0.065671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Console_4.mat
+  artifactKey: Guid(8c7b4b88b072b284b9ac65683f793483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Console_4.mat using Guid(8c7b4b88b072b284b9ac65683f793483) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a6282ca7a16e6d9dbeffe869974c5d') in 0.079885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Daybed.mat
+  artifactKey: Guid(4d7bd65d01dcd87408995c76d6f8228c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Daybed.mat using Guid(4d7bd65d01dcd87408995c76d6f8228c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bba1c2cf0d56af3284094b9f96a7356') in 0.091611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Chair_1.mat
+  artifactKey: Guid(d070daf22d06d134195b5a851596e153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Chair_1.mat using Guid(d070daf22d06d134195b5a851596e153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab33c4ec863a7429c584a875651b223') in 0.081991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Armchair_5.mat
+  artifactKey: Guid(a679e339d68de62448d620093ec500ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Armchair_5.mat using Guid(a679e339d68de62448d620093ec500ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '920a2b2b23bf5baeb964ebe34494cd3a') in 0.085666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Armchair_3.mat
+  artifactKey: Guid(b901ed9f27e6e61448811f5c22b43d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Armchair_3.mat using Guid(b901ed9f27e6e61448811f5c22b43d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4bf8c1ce7739f062c975490fe1dc89') in 0.081735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Coffee_Table_2.mat
+  artifactKey: Guid(b1df6418825dda54e96cc37731ddf45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Coffee_Table_2.mat using Guid(b1df6418825dda54e96cc37731ddf45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f285054246c5f3f456e7832ebf968e0') in 0.065588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Candlestick.mat
+  artifactKey: Guid(4a7dcb7f140471f44a87f65e16e40d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Candlestick.mat using Guid(4a7dcb7f140471f44a87f65e16e40d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '088fa7cf7c1290460fa21baafa3cc5f8') in 0.055534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Fridge.mat
+  artifactKey: Guid(d3f3a59af40842945847cdcc64fe68fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Fridge.mat using Guid(d3f3a59af40842945847cdcc64fe68fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30fee5523e7fe008e8c8129440b65f4f') in 0.072636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Coffee_Table_3.mat
+  artifactKey: Guid(989902576dae2c14295886fc3a8c7e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Coffee_Table_3.mat using Guid(989902576dae2c14295886fc3a8c7e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d08559fd8643e217f44f7e235c53577') in 0.069599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Chandelier_1.mat
+  artifactKey: Guid(8128e32f6c671bc4eb99cb63bcd00e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Chandelier_1.mat using Guid(8128e32f6c671bc4eb99cb63bcd00e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06bdc20cd7d16b79db8195d6a5dabf03') in 0.071139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Bed_2.mat
+  artifactKey: Guid(d2fbdd1f0aeab4f4a954fba8c027497c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Bed_2.mat using Guid(d2fbdd1f0aeab4f4a954fba8c027497c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f220ff4a1ebe970209ea28afa6eaea') in 0.090315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Bathroom_Tap.mat
+  artifactKey: Guid(3baae53475d02af42a6ba408a10fce3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Bathroom_Tap.mat using Guid(3baae53475d02af42a6ba408a10fce3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd664555147a067f404ab94f6c40c04b2') in 0.079697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Bathroom_Sink.mat
+  artifactKey: Guid(fc5a40f913dd6184e8f171b3bb27d430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Bathroom_Sink.mat using Guid(fc5a40f913dd6184e8f171b3bb27d430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c887d6c389e64cd140fedbf2c012d521') in 0.039379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Couch_1.mat
+  artifactKey: Guid(e9987fc1a8c223b4d9854e08d5aaa0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Couch_1.mat using Guid(e9987fc1a8c223b4d9854e08d5aaa0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257fd72006e77b70297d59cb4d207d8a') in 0.108523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Chair_3.mat
+  artifactKey: Guid(a0f4f6f55d9ab2f4eab5e7b2e71f9636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Chair_3.mat using Guid(a0f4f6f55d9ab2f4eab5e7b2e71f9636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6749bed7330e23597d393fb73ed0536b') in 0.088869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Kitchen_Hoods.mat
+  artifactKey: Guid(ee6e9867aff701643867d7ed8e7bf6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Kitchen_Hoods.mat using Guid(ee6e9867aff701643867d7ed8e7bf6d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe81bb080c5e9192eb90da79796e80d') in 0.082838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Bookcase_1.mat
+  artifactKey: Guid(d5cdb2394472d9f468d8e4a2e8ad0452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Materials/RFAIPP_Bookcase_1.mat using Guid(d5cdb2394472d9f468d8e4a2e8ad0452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9468cf90c03b932c938e85f24fdb0cc') in 0.204799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 243.112801 seconds.
+  path: Assets/Resources/Prefabs/CouchRotation.prefab
+  artifactKey: Guid(be8885c12a0d72d49b120b5269f56109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/CouchRotation.prefab using Guid(be8885c12a0d72d49b120b5269f56109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca3a348af182c69ecf93f787b11d107') in 0.074361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.653135 seconds.
+  path: Assets/Resources/Prefabs/CouchRotation.prefab
+  artifactKey: Guid(be8885c12a0d72d49b120b5269f56109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/CouchRotation.prefab using Guid(be8885c12a0d72d49b120b5269f56109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5f87193e117f15bbc2ff57ed12c30d') in 0.058810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.856878 seconds.
+  path: Assets/Resources/Prefabs/CouchRotation.prefab
+  artifactKey: Guid(be8885c12a0d72d49b120b5269f56109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/CouchRotation.prefab using Guid(be8885c12a0d72d49b120b5269f56109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ec03a225e32430a3d843121f83a413') in 0.075313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.403623 seconds.
+  path: Assets/Resources/Prefabs/CouchRotation.prefab
+  artifactKey: Guid(be8885c12a0d72d49b120b5269f56109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/CouchRotation.prefab using Guid(be8885c12a0d72d49b120b5269f56109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1114fea6fa98a5cefc0775aa767286') in 0.058309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.349952 seconds.
+  path: Assets/Resources/Prefabs/CouchRotation.prefab
+  artifactKey: Guid(be8885c12a0d72d49b120b5269f56109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/CouchRotation.prefab using Guid(be8885c12a0d72d49b120b5269f56109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40af63838ceb8f54d5f58d430e0c27a9') in 0.053066 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.163307 seconds.
+  path: Assets/Resources/Prefabs/ClosetRotation.prefab
+  artifactKey: Guid(cfe19d9e308fd5a4085266dbdb2316a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/ClosetRotation.prefab using Guid(cfe19d9e308fd5a4085266dbdb2316a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7edc68318808bda2a954336e54c69cf') in 0.062004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.769830 seconds.
+  path: Assets/Resources/Prefabs/ClosetRotation.prefab
+  artifactKey: Guid(cfe19d9e308fd5a4085266dbdb2316a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/ClosetRotation.prefab using Guid(cfe19d9e308fd5a4085266dbdb2316a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731787afc65887ee74a1171dd3fc015e') in 0.058114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.497879 seconds.
+  path: Assets/Resources/Prefabs/ChairRotation.prefab
+  artifactKey: Guid(a866879c23c350c43807e9106fc2138d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/ChairRotation.prefab using Guid(a866879c23c350c43807e9106fc2138d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4110f37b7aaf8d8dcc590963b23e7f11') in 0.070712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.705685 seconds.
+  path: Assets/Resources/Prefabs/ChairRotation.prefab
+  artifactKey: Guid(a866879c23c350c43807e9106fc2138d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/ChairRotation.prefab using Guid(a866879c23c350c43807e9106fc2138d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163db152ab561862ec250f2003ee7db0') in 0.069457 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 29.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 51 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (78.0 KB). Loaded Objects now: 3810.
+Memory consumption went from 64.8 MB to 64.7 MB.
+Total: 19.394400 ms (FindLiveObjects: 0.353000 ms CreateObjectMapping: 0.415000 ms MarkObjects: 18.407000 ms  DeleteObjects: 0.217300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
