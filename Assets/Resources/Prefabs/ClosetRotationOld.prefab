@@ -39,6 +39,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8013938991451042335}
     m_Modifications:
+    - target: {fileID: 4618951565898009775, guid: 0811362ae53573c47be253aac1dbdd5d,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d4840137d78d4bb4cb92bc67a6326686, type: 2}
     - target: {fileID: 5787938226493339584, guid: 0811362ae53573c47be253aac1dbdd5d,
         type: 3}
       propertyPath: m_RootOrder
@@ -114,6 +119,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SmallCloset
       objectReference: {fileID: 0}
+    - target: {fileID: 7493207700525103205, guid: 0811362ae53573c47be253aac1dbdd5d,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 4300002, guid: 32024e2345a12c64c8bcd3206512574b, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0811362ae53573c47be253aac1dbdd5d, type: 3}
 --- !u!1 &1183239707924997902 stripped

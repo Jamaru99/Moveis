@@ -45,6 +45,7 @@ public class PlacementWithManySinglePrefabSelectionController : MonoBehaviour
     private const string PREFAB_CHAIR = "ChairRotation";
     private const string PREFAB_COUCH = "CouchRotation";
     private const string PREFAB_CLOSET = "ClosetRotation";
+    private const string PREFAB_FAUCET = "FaucetRotation";
 
     private GameObject PlacedPrefab 
     {
