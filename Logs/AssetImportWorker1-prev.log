@@ -15,7 +15,7 @@ C:/Users/mathe/OneDrive/Documentos/Projetos de Aplicativos/UnityARFoundationEsse
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51471
+52130
 Successfully changed project path to: C:/Users/mathe/OneDrive/Documentos/Projetos de Aplicativos/UnityARFoundationEssentials-master
 C:/Users/mathe/OneDrive/Documentos/Projetos de Aplicativos/UnityARFoundationEssentials-master
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/mathe/OneDrive/Documentos/Projetos de Aplicativos/UnityARFoundationEsse
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 165.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 133.12 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -58,357 +58,55 @@ Direct3D:
     Renderer: NVIDIA GeForce MX110 (ID=0x174e)
     Vendor:   NVIDIA
     VRAM:     2008 MB
-    Driver:   31.0.15.3699
+    Driver:   31.0.15.4584
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Registered in 0.023436 seconds.
+Registered in 0.423651 seconds.
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 127.07 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 73.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.422 seconds
+- Completed reload, in  6.561 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1423ms)
-		BeginReloadAssembly (161ms)
+	ReloadAssembly (6561ms)
+		BeginReloadAssembly (4341ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (917ms)
-			LoadAssemblies (160ms)
+		EndReloadAssembly (1354ms)
+			LoadAssemblies (4348ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (216ms)
+			SetupTypeCache (960ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (496ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (295ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (119ms)
+				InitializePlatformSupportModulesInManaged (69ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (127ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (180ms)
-				ProcessInitializeOnLoadMethodAttributes (67ms)
+				RefreshPlugins (74ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (98ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009900 seconds.
+Registered in 0.008015 seconds.
+Android Extension - Scanning For ADB Devices 4778 ms
 Begin MonoManager ReloadAssembly
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 99.89 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Package Manager log level set to [2]
-Mono: successfully reloaded assembly
-- Completed reload, in  2.578 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2579ms)
-		BeginReloadAssembly (338ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (138ms)
-		EndReloadAssembly (1926ms)
-			LoadAssemblies (190ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (516ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (77ms)
-			SetupLoadedEditorAssemblies (1080ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (100ms)
-				BeforeProcessingInitializeOnLoad (133ms)
-				ProcessInitializeOnLoadAttributes (606ms)
-				ProcessInitializeOnLoadMethodAttributes (201ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.86 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3323 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 135 unused Assets / (131.9 KB). Loaded Objects now: 3759.
-Memory consumption went from 129.8 MB to 129.6 MB.
-Total: 14.568800 ms (FindLiveObjects: 0.475000 ms CreateObjectMapping: 0.375000 ms MarkObjects: 13.298800 ms  DeleteObjects: 0.418500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 463509.270059 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(29e1a9c9c70d642c7af0ffd5dd77ecfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(29e1a9c9c70d642c7af0ffd5dd77ecfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf686a296c0da4cdfae91d63ce23306b') in 0.018312 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 162.429955 seconds.
-  path: Assets/AssetStore/DragonStatue/DragonStatue_LOD2.FBX
-  artifactKey: Guid(13a4c93f7e7fca14e86fbbf008012b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/DragonStatue/DragonStatue_LOD2.FBX using Guid(13a4c93f7e7fca14e86fbbf008012b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66013c65f89206c7873a3290fac546a8') in 1.053854 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 92.663570 seconds.
-  path: Assets/AssetStore/48 Particle Effect Pack/Texture/Cube.mat
-  artifactKey: Guid(cce5ce00b20404c43a1daea10b884856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/48 Particle Effect Pack/Texture/Cube.mat using Guid(cce5ce00b20404c43a1daea10b884856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e798254091c00465d353ed2c5d899331') in 0.104353 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Packages/com.unity.xr.arfoundation/Materials/DebugFace.mat
-  artifactKey: Guid(35bd980c8f2234e3d8b640e25a677d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.xr.arfoundation/Materials/DebugFace.mat using Guid(35bd980c8f2234e3d8b640e25a677d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f69ec0aa829a988c9ea40bbe5c639a1') in 0.108587 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.424177 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/EdgePicker.mat
-  artifactKey: Guid(4ff996e3a0a5743a3987ab6231160665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/EdgePicker.mat using Guid(4ff996e3a0a5743a3987ab6231160665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187cd91ca0002f8cc8b8be694782c6b1') in 0.027090 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/FacePicker.mat
-  artifactKey: Guid(5695904020f064fdab5ad265b274a616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/FacePicker.mat using Guid(5695904020f064fdab5ad265b274a616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42597c17e208a715aaa860f3334976c1') in 0.026186 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/EdgePickerHDRP.mat
-  artifactKey: Guid(980c24c5a501a9a429356d191ad356a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/EdgePickerHDRP.mat using Guid(980c24c5a501a9a429356d191ad356a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a5210a4aa1ab6f2858bda60936cdccb') in 0.029798 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
-  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f3113df9c64817575ac1b2596df0c09') in 0.058001 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
-  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '865e38891596f05c7276b8d9c5081001') in 0.118855 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/AssetStore/48 Particle Effect Pack/Texture/Lightning.mat
-  artifactKey: Guid(46e926022039eae488a5b700546ede95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/48 Particle Effect Pack/Texture/Lightning.mat using Guid(46e926022039eae488a5b700546ede95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279c5de843be53e89e486a7838912826') in 0.037752 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/AssetStore/48 Particle Effect Pack/Texture/Light2.mat
-  artifactKey: Guid(8bf2e1cc6fa250646b7d37f16a62348b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/48 Particle Effect Pack/Texture/Light2.mat using Guid(8bf2e1cc6fa250646b7d37f16a62348b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c84082a16542af57d83a82d11f3c89') in 0.044455 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/AssetStore/48 Particle Effect Pack/Texture/Light3.mat
-  artifactKey: Guid(c3557f85164610846910f37026cf4f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/48 Particle Effect Pack/Texture/Light3.mat using Guid(c3557f85164610846910f37026cf4f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575dc31984975b3ac68ce134b6ba8a3f') in 0.043557 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/AssetStore/48 Particle Effect Pack/Texture/Lightning2.mat
-  artifactKey: Guid(f8c072200c7ff784b8994282a81016c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/48 Particle Effect Pack/Texture/Lightning2.mat using Guid(f8c072200c7ff784b8994282a81016c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '275f86960c333c034b8db00cebac0a89') in 0.039611 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
-  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18d34a9875c524cf644ec38faa94f9cc') in 0.101033 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
-  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef39adf08b9295ba5eea92ac56d364f2') in 0.148450 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/FacePickerHDRP.mat
-  artifactKey: Guid(a53ef0dd76f2fe74eb5f43267d7c0195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/FacePickerHDRP.mat using Guid(a53ef0dd76f2fe74eb5f43267d7c0195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38bb5a4db4a260e66da572510dbb87cd') in 0.027014 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/AssetStore/48 Particle Effect Pack/Texture/Lightning5.mat
-  artifactKey: Guid(bbfa7a10c9992c5418179d7f45c9f749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/48 Particle Effect Pack/Texture/Lightning5.mat using Guid(bbfa7a10c9992c5418179d7f45c9f749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4454a331594d286e23f59edb83e499c') in 0.042960 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/AssetStore/48 Particle Effect Pack/Texture/Line.mat
-  artifactKey: Guid(81159261a9ccdfa4ea93528d98b79fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/48 Particle Effect Pack/Texture/Line.mat using Guid(81159261a9ccdfa4ea93528d98b79fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ddb1c428b74fe3a198d61b498f2792a') in 0.045587 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/AssetStore/48 Particle Effect Pack/Texture/Lightning4.mat
-  artifactKey: Guid(239461e21e0a6934e9c905f57d449cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/48 Particle Effect Pack/Texture/Lightning4.mat using Guid(239461e21e0a6934e9c905f57d449cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053637bbd7b3480131c6aef606113c39') in 0.041262 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/AssetStore/48 Particle Effect Pack/Texture/Ring3.mat
-  artifactKey: Guid(1d614f3d551c4444484365870e44b67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/48 Particle Effect Pack/Texture/Ring3.mat using Guid(1d614f3d551c4444484365870e44b67d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a845e13bef87d103188059ebce4415f') in 0.051649 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/AssetStore/48 Particle Effect Pack/Texture/Star3.mat
-  artifactKey: Guid(6e605333055fdbe4b94a3506efcb132e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/48 Particle Effect Pack/Texture/Star3.mat using Guid(6e605333055fdbe4b94a3506efcb132e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9a82f02d21455bfd8e53eeccbdc049') in 0.044129 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/AssetStore/48 Particle Effect Pack/Texture/SnowCrystal.mat
-  artifactKey: Guid(412c1c87c8bf88d41be9917ecf91390d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/48 Particle Effect Pack/Texture/SnowCrystal.mat using Guid(412c1c87c8bf88d41be9917ecf91390d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61be7ca31bf958375e24ecaa7aed01c') in 0.049378 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/Trigger.mat
-  artifactKey: Guid(a1e97cbf2538241b691aae8243b5fb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/Trigger.mat using Guid(a1e97cbf2538241b691aae8243b5fb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3848090d7901ff3bc51dcc58dec2a005') in 0.046925 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/AssetStore/48 Particle Effect Pack/Texture/Spark2.mat
-  artifactKey: Guid(a1ebb5132f727d043b53629a18b54fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/48 Particle Effect Pack/Texture/Spark2.mat using Guid(a1ebb5132f727d043b53629a18b54fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2bb9e7c2f18facbebd42685f5573c3') in 0.041758 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AssetStore/48 Particle Effect Pack/Texture/Ring.mat
-  artifactKey: Guid(2fa09479d6bc66f4baa4f46c8f710867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/48 Particle Effect Pack/Texture/Ring.mat using Guid(2fa09479d6bc66f4baa4f46c8f710867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675de5f1f723e720a82e25bd6b663840') in 0.044879 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/AssetStore/48 Particle Effect Pack/Texture/Spark5.mat
-  artifactKey: Guid(e8866d69778db1648a2a24c7bd6e5b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/48 Particle Effect Pack/Texture/Spark5.mat using Guid(e8866d69778db1648a2a24c7bd6e5b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2ccd8ac566610be262b09640e94fd65') in 0.046516 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/AssetStore/48 Particle Effect Pack/Texture/Spark3.mat
-  artifactKey: Guid(84601cf1c4fd6ef48958ec9fcac69cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/48 Particle Effect Pack/Texture/Spark3.mat using Guid(84601cf1c4fd6ef48958ec9fcac69cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd3e86c6f75cf5ef57237810ed6df095') in 0.042382 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/AssetStore/48 Particle Effect Pack/Texture/Ring5.mat
-  artifactKey: Guid(4db05a28dbb8a1747a2a366e8ebbf370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/48 Particle Effect Pack/Texture/Ring5.mat using Guid(4db05a28dbb8a1747a2a366e8ebbf370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efbf6467524f615aac3f4df3c7dfa5ba') in 0.041609 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/AssetStore/48 Particle Effect Pack/Texture/Ring4.mat
-  artifactKey: Guid(ce1a2cdc9db22ed4190e11159c00f4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/48 Particle Effect Pack/Texture/Ring4.mat using Guid(ce1a2cdc9db22ed4190e11159c00f4d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36eccc835ae0621123df55af581a01df') in 0.051639 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/AssetStore/48 Particle Effect Pack/Texture/Ring2.mat
-  artifactKey: Guid(4186e9b6090f86f44ba623f55e461f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/48 Particle Effect Pack/Texture/Ring2.mat using Guid(4186e9b6090f86f44ba623f55e461f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031a6fa3f59e2d6233169045a137d47c') in 0.050438 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/StandardVertexColorHDRP.mat
-  artifactKey: Guid(c35693c079f3840f7938a4a323096e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/StandardVertexColorHDRP.mat using Guid(c35693c079f3840f7938a4a323096e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb54e0b5c1ffe899de3ee34cffd54dfb') in 0.031882 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/AssetStore/48 Particle Effect Pack/Texture/Star2.mat
-  artifactKey: Guid(da154f58167fcb24da4b73db87dc7bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/48 Particle Effect Pack/Texture/Star2.mat using Guid(da154f58167fcb24da4b73db87dc7bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afcfb6e67763cb715dee88ac6f4dca3c') in 0.042309 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.040573 seconds.
-  path: Packages/com.unity.probuilder/Content/Resources/Materials/VertexPicker.mat
-  artifactKey: Guid(30a8575e1d4cc4e01a88ffbf4f973d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Resources/Materials/VertexPicker.mat using Guid(30a8575e1d4cc4e01a88ffbf4f973d80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9210b91156bc0253f15fe31d5101d3a') in 0.028002 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.150005 seconds.
-  path: Assets/AssetStore/48 Particle Effect Pack/Texture/Smoke3.mat
-  artifactKey: Guid(be7533a6f81a2e14d9ab9d57915552ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/48 Particle Effect Pack/Texture/Smoke3.mat using Guid(be7533a6f81a2e14d9ab9d57915552ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501a56be6c1d8c149662826be2d53048') in 0.052983 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/AssetStore/48 Particle Effect Pack/Texture/Smoke5.mat
-  artifactKey: Guid(43e33c0d66f41ee4c9a6f94ed7c73160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/48 Particle Effect Pack/Texture/Smoke5.mat using Guid(43e33c0d66f41ee4c9a6f94ed7c73160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4634feb8e539faa5a4d37964b5b37640') in 0.060560 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/AssetStore/48 Particle Effect Pack/Texture/Smoke4.mat
-  artifactKey: Guid(6d7056011f1a430418a308ed22098905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/48 Particle Effect Pack/Texture/Smoke4.mat using Guid(6d7056011f1a430418a308ed22098905) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b95458582dada7fbb4f0d927f570585') in 0.049726 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.029946 seconds.
-  path: Assets/AssetStore/48 Particle Effect Pack/Texture/Flash2.mat
-  artifactKey: Guid(bd0236ac54d4bdb439a46bca1fdbcbec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/48 Particle Effect Pack/Texture/Flash2.mat using Guid(bd0236ac54d4bdb439a46bca1fdbcbec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '493d9b9125fcf16b7c425dbe8380fa23') in 0.044025 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/AssetStore/48 Particle Effect Pack/Texture/Flash4.mat
-  artifactKey: Guid(4e4630e8ac8994249b4f6d41f738e518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/48 Particle Effect Pack/Texture/Flash4.mat using Guid(4e4630e8ac8994249b4f6d41f738e518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0399e787f23978417e95385d85fcad7c') in 0.045255 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AssetStore/FreeStatuePack/Materials/Albert_Bronze.mat
-  artifactKey: Guid(4628c1dd284ba7144abcb377720890b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/FreeStatuePack/Materials/Albert_Bronze.mat using Guid(4628c1dd284ba7144abcb377720890b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178b1d4af4018ee75b09a84413121a04') in 0.348147 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/AssetStore/48 Particle Effect Pack/Texture/Flash3.mat
-  artifactKey: Guid(b800d39fd2d4f88498c4a85b29f62906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/48 Particle Effect Pack/Texture/Flash3.mat using Guid(b800d39fd2d4f88498c4a85b29f62906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b30431cd8194e0323f5e666db1c13b') in 0.043398 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 30.337621 seconds.
-  path: Assets/AssetStore/48 Particle Effect Pack/Texture/Particle.mat
-  artifactKey: Guid(e252ebe03637ede45ab53f0c045e6f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/48 Particle Effect Pack/Texture/Particle.mat using Guid(e252ebe03637ede45ab53f0c045e6f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd49bfbd54c189ea1f7b639f794238f3') in 0.040716 seconds 

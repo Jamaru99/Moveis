@@ -1,0 +1,536 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.11f1 (0a5ca18544bf) revision 679073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'pt' Physical Memory: 12202 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/mathe/OneDrive/Documentos/Projetos de Aplicativos/UnityARFoundationEssentials-master
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+52130
+Successfully changed project path to: C:/Users/mathe/OneDrive/Documentos/Projetos de Aplicativos/UnityARFoundationEssentials-master
+C:/Users/mathe/OneDrive/Documentos/Projetos de Aplicativos/UnityARFoundationEssentials-master
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 237.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/mathe/OneDrive/Documentos/Projetos de Aplicativos/UnityARFoundationEssentials-master/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce MX110 (ID=0x174e)
+    Vendor:   NVIDIA
+    VRAM:     2008 MB
+    Driver:   31.0.15.4584
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.023270 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 190.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.876 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3878ms)
+		BeginReloadAssembly (174ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (3415ms)
+			LoadAssemblies (171ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (382ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (2749ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (241ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (191ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (1094ms)
+				ProcessInitializeOnLoadMethodAttributes (1218ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.172497 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 243.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in 11.577 seconds
+Domain Reload Profiling:
+	ReloadAssembly (11578ms)
+		BeginReloadAssembly (412ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (138ms)
+		EndReloadAssembly (10939ms)
+			LoadAssemblies (4649ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2264ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (334ms)
+			SetupLoadedEditorAssemblies (3485ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (131ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (243ms)
+				BeforeProcessingInitializeOnLoad (226ms)
+				ProcessInitializeOnLoadAttributes (1262ms)
+				ProcessInitializeOnLoadMethodAttributes (1610ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3323 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 135 unused Assets / (131.9 KB). Loaded Objects now: 3759.
+Memory consumption went from 130.0 MB to 129.8 MB.
+Total: 12.142500 ms (FindLiveObjects: 0.423700 ms CreateObjectMapping: 0.359400 ms MarkObjects: 11.053000 ms  DeleteObjects: 0.304700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 549394.811511 seconds.
+  path: Assets/Resources/Prefabs/FaucetRotation.prefab
+  artifactKey: Guid(7c3ac8817f72a84418d0dbc9d86ff558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FaucetRotation.prefab using Guid(7c3ac8817f72a84418d0dbc9d86ff558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14cd339fa71a0441011af7b951ff9c87') in 0.224179 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018329 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  4.072 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4074ms)
+		BeginReloadAssembly (395ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (21ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (101ms)
+		EndReloadAssembly (3390ms)
+			LoadAssemblies (230ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (773ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (168ms)
+			SetupLoadedEditorAssemblies (1995ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (65ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (292ms)
+				ProcessInitializeOnLoadAttributes (977ms)
+				ProcessInitializeOnLoadMethodAttributes (618ms)
+				AfterProcessingInitializeOnLoad (38ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 20.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3272 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (104.7 KB). Loaded Objects now: 3771.
+Memory consumption went from 130.2 MB to 130.1 MB.
+Total: 18.403200 ms (FindLiveObjects: 0.507900 ms CreateObjectMapping: 0.445200 ms MarkObjects: 17.020900 ms  DeleteObjects: 0.427100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007297 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.096 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2098ms)
+		BeginReloadAssembly (268ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (1582ms)
+			LoadAssemblies (197ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (436ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (784ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (44ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (150ms)
+				ProcessInitializeOnLoadAttributes (347ms)
+				ProcessInitializeOnLoadMethodAttributes (226ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3272 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 52 unused Assets / (97.1 KB). Loaded Objects now: 3775.
+Memory consumption went from 130.2 MB to 130.1 MB.
+Total: 8.082400 ms (FindLiveObjects: 0.291900 ms CreateObjectMapping: 0.210100 ms MarkObjects: 7.430500 ms  DeleteObjects: 0.148600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 460.689784 seconds.
+  path: Assets/Resources/Prefabs/FaucetRotation.prefab
+  artifactKey: Guid(7c3ac8817f72a84418d0dbc9d86ff558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FaucetRotation.prefab using Guid(7c3ac8817f72a84418d0dbc9d86ff558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a64cb813ca28a4f86a950319682e18') in 0.098679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.847556 seconds.
+  path: Assets/Resources/Prefabs/FaucetRotation.prefab
+  artifactKey: Guid(7c3ac8817f72a84418d0dbc9d86ff558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/FaucetRotation.prefab using Guid(7c3ac8817f72a84418d0dbc9d86ff558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec897af5fd7a8bd72c429f86660276b') in 0.025167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.176604 seconds.
+  path: Assets/Scenes/Not Used
+  artifactKey: Guid(5715a36658f05c849974a2209d8b391f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Not Used using Guid(5715a36658f05c849974a2209d8b391f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87452ea5bc0c8ef58d129d83feef9538') in 0.011710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.932619 seconds.
+  path: Assets/Scenes/StatueSelectionWithRotation.unity
+  artifactKey: Guid(a886d8e9231b445f5ab6be40063f2d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StatueSelectionWithRotation.unity using Guid(a886d8e9231b445f5ab6be40063f2d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70aa4fa945cf2a2333388b55d1a954e2') in 0.011989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.249167 seconds.
+  path: Assets/Scenes/StatueSelectionWithScalingPerArea 1.unity
+  artifactKey: Guid(62d4e373fae53134398ff606bb2bfee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StatueSelectionWithScalingPerArea 1.unity using Guid(62d4e373fae53134398ff606bb2bfee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b2e72a7b7d1b195c6ed294d1124835d') in 0.013251 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.928979 seconds.
+  path: Assets/Scenes/StatueSelectionWithScalingPerObject 1.unity
+  artifactKey: Guid(c5e0483c60c9e4f4abbdbbc1ebc63127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StatueSelectionWithScalingPerObject 1.unity using Guid(c5e0483c60c9e4f4abbdbbc1ebc63127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83cef7d7e97bccf2ea918d9d1f18aadf') in 0.010974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.602746 seconds.
+  path: Assets/Scenes/StatueSelectionWithBoundingArea 1.unity
+  artifactKey: Guid(745f0fe06c080384a991f46d754e33be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StatueSelectionWithBoundingArea 1.unity using Guid(745f0fe06c080384a991f46d754e33be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8c47af09df60f7915d39fa171b60404') in 0.011462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 216.751574 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Acoustic_System_albedo.png
+  artifactKey: Guid(ebc5d1c3edb87eb40ac2b27064acc424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Acoustic_System_albedo.png using Guid(ebc5d1c3edb87eb40ac2b27064acc424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b93682530cd6aa25ca70e5f9eb893a70') in 0.107425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Chair_5_ao.png
+  artifactKey: Guid(abf8148a369e992428f24cc2971efcd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Chair_5_ao.png using Guid(abf8148a369e992428f24cc2971efcd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fabb1e333a101b38bee20fcd56bceca7') in 0.035041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Armchair_1_nm.png
+  artifactKey: Guid(b33c02d667b84c94b94816e89547959e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Armchair_1_nm.png using Guid(b33c02d667b84c94b94816e89547959e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fa0049cd127eb690cd5302eb59567a5') in 0.057341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Bed_1_nm.png
+  artifactKey: Guid(6271558dce54c7d458633c6ed3c512e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Bed_1_nm.png using Guid(6271558dce54c7d458633c6ed3c512e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636d78825d4ad934fb8ee388f45e4e97') in 0.046959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Chair_8_albedo.png
+  artifactKey: Guid(12bc052623a35a740bb6155eb00ec709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Chair_8_albedo.png using Guid(12bc052623a35a740bb6155eb00ec709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69addf7d2a3dd5f6680b6f00ba4713b3') in 0.059491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Armchair_5_ao.png
+  artifactKey: Guid(c8c44c3f757e6034faa1928b11ba3821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Armchair_5_ao.png using Guid(c8c44c3f757e6034faa1928b11ba3821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71721cf68da324147fb3e63b65530d18') in 0.033838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Chair_1_nm.png
+  artifactKey: Guid(31ca2576b9e35914aaf90ae1dd006983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Chair_1_nm.png using Guid(31ca2576b9e35914aaf90ae1dd006983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ad8882490699a2451c3ffae792ebe1') in 0.040623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Chair_5_albedo.png
+  artifactKey: Guid(ac38645aa6c3df9468cbe36d8dd9be42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Chair_5_albedo.png using Guid(ac38645aa6c3df9468cbe36d8dd9be42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee70ea517cfe7abe805b28e771362f64') in 0.045620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Candlestick_nm.png
+  artifactKey: Guid(46a01b8229f64744d8c3a65f7a0f9678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Candlestick_nm.png using Guid(46a01b8229f64744d8c3a65f7a0f9678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79f8fea5d76529af6c9e941aee709d0') in 0.033038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Bed_1_ao.png
+  artifactKey: Guid(eb7e578838fbbe3478e410f2f30a944a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Bed_1_ao.png using Guid(eb7e578838fbbe3478e410f2f30a944a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f159da8540748513fc4ebacc61456851') in 0.030235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Bathroom_Sink_albedo.png
+  artifactKey: Guid(d949d731293518446a14fcdee3791f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Bathroom_Sink_albedo.png using Guid(d949d731293518446a14fcdee3791f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71fe9eaf90358491a97ad8ca1fe4c427') in 0.028893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Bathroom_Sink_nm.png
+  artifactKey: Guid(26c85b76cd2d8864295c897abf509c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Bathroom_Sink_nm.png using Guid(26c85b76cd2d8864295c897abf509c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c891d7e1dcaa21e633252225fb70ca4') in 0.033884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Armchair_1_albedo.png
+  artifactKey: Guid(c0f5abf8f291c544c91ef5a3a95579bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Armchair_1_albedo.png using Guid(c0f5abf8f291c544c91ef5a3a95579bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5429292017674c28ee15ec3ab0649334') in 0.040874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Armchair_4_ao.png
+  artifactKey: Guid(6c572cb5cb95230428d20f07db0b09e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Armchair_4_ao.png using Guid(6c572cb5cb95230428d20f07db0b09e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f1af184232fa4738b5c111011d414a') in 0.032739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Chair_4_nm.png
+  artifactKey: Guid(8ac6695059b663d4d926abff640f1dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Chair_4_nm.png using Guid(8ac6695059b663d4d926abff640f1dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51c0040564989973e16a140c997ee38') in 0.037172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Bookcase_1_nm.png
+  artifactKey: Guid(bec2e28bba69374489b75dd8a170ba8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Bookcase_1_nm.png using Guid(bec2e28bba69374489b75dd8a170ba8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54eb9a2d7090fcf24b52598b79d261b9') in 0.094408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Armchair_2_nm.png
+  artifactKey: Guid(425c2ba77225fd84493d51a92a870924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Armchair_2_nm.png using Guid(425c2ba77225fd84493d51a92a870924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ffa3e80b17414e08449b3d7f4f5af8') in 0.048148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Chair_4_ao.png
+  artifactKey: Guid(995212fb2f0faee48b892da2d2cefa1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Chair_4_ao.png using Guid(995212fb2f0faee48b892da2d2cefa1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a4caa483849739805dbc4789b0f546') in 0.031804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Chair_6_albedo.png
+  artifactKey: Guid(fb425f41839de5448b236845813439d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Chair_6_albedo.png using Guid(fb425f41839de5448b236845813439d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '864291cc206f74bc904828bd7e089050') in 0.046467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Bed_1_albedo.png
+  artifactKey: Guid(bb4a697889e083d49b0384ff07cf9f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Bed_1_albedo.png using Guid(bb4a697889e083d49b0384ff07cf9f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb9ef6aea1b465e1b082578bc4c70c8') in 0.509729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Bed_2_dm.png
+  artifactKey: Guid(c7b0dfee112c66540ba024dd328022bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Bed_2_dm.png using Guid(c7b0dfee112c66540ba024dd328022bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f817bfe5cd3142f8fc675ecb1dd44aba') in 0.031426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Chair_7_albedo.png
+  artifactKey: Guid(eb5b53a017d4fda4b921f96a89e33cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Chair_7_albedo.png using Guid(eb5b53a017d4fda4b921f96a89e33cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520a48c5aa314843b803735ef1299f5d') in 0.035277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Armchair_2_ao.png
+  artifactKey: Guid(383a82f8fc0f219479721164a559dccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Armchair_2_ao.png using Guid(383a82f8fc0f219479721164a559dccb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e8ecd042a4247c97dd9e2e1456fa953') in 0.033200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Bathroom_Tap_nm.png
+  artifactKey: Guid(4149e55a138c02d48a2eaff710df1c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Bathroom_Tap_nm.png using Guid(4149e55a138c02d48a2eaff710df1c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97dfe5bdeab54dd5675247d9eb07493f') in 0.045808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Bookcase_1_albedo.png
+  artifactKey: Guid(b87922ad695390f4ea5b8806bbc15c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Bookcase_1_albedo.png using Guid(b87922ad695390f4ea5b8806bbc15c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8305c487a722ad40cc1d151162552e') in 0.113318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Armchair_1_ao.png
+  artifactKey: Guid(0dbe272832d3159499db4ea3d7cfce69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Armchair_1_ao.png using Guid(0dbe272832d3159499db4ea3d7cfce69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b973fdada8089030922bd873988f8c20') in 0.029494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Bathroom_Sink_ao.png
+  artifactKey: Guid(9b71cef8736f0e94ea246e5143ff7ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Bathroom_Sink_ao.png using Guid(9b71cef8736f0e94ea246e5143ff7ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df31fd41bee40cce75f61e232b0fab42') in 0.027645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Chair_7_nm.png
+  artifactKey: Guid(36836992e8da6cf43b2de016892b6768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Chair_7_nm.png using Guid(36836992e8da6cf43b2de016892b6768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015947115d808713c21805967ae2e7ad') in 0.038065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Chair_1_albedo.png
+  artifactKey: Guid(2f0554ed6b2187b438d97f43ec2f3786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Chair_1_albedo.png using Guid(2f0554ed6b2187b438d97f43ec2f3786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d54ad76b82dbe946a3e39cbb9a33f2') in 0.035505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Bed_2_albedo.png
+  artifactKey: Guid(9c46eeb9a52167d45a4c7e9bd42d12e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Bed_2_albedo.png using Guid(9c46eeb9a52167d45a4c7e9bd42d12e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb478b7095affbd478a5d84ddc2e9be') in 0.040754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Armchair_2_albedo.png
+  artifactKey: Guid(58d4b6cee93e37743897f8cf722f8b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Realistic_Furniture_And_Interior_Props_Pack/Texrures/RFAIPP_Armchair_2_albedo.png using Guid(58d4b6cee93e37743897f8cf722f8b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d3896c1a9c267162254de53cf8dd5b') in 0.041644 seconds 

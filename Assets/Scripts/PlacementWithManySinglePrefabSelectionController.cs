@@ -16,16 +16,19 @@ public class PlacementWithManySinglePrefabSelectionController : MonoBehaviour
     private Button dismissButton;
 
     [SerializeField]
-    private Button arGreenButton;
+    private Button chairButton;
 
     [SerializeField]
-    private Button arRedButton;
+    private Button closetButton;
+
+    [SerializeField]
+    private Button couchButton;
+
+    [SerializeField]
+    private Button faucetButton;
 
     [SerializeField]
     private Button screenshotButton;
-
-    [SerializeField]
-    private Button arBlueButton;
 
     [SerializeField]
     private Toggle deleteButton;
@@ -59,13 +62,13 @@ public class PlacementWithManySinglePrefabSelectionController : MonoBehaviour
         }
     }
 
-
     void Awake() 
     {
         arRaycastManager = GetComponent<ARRaycastManager>();
-        arGreenButton.onClick.AddListener(() => ChangePrefabTo(PREFAB_CHAIR));
-        arBlueButton.onClick.AddListener(() => ChangePrefabTo(PREFAB_COUCH));
-        arRedButton.onClick.AddListener(() => ChangePrefabTo(PREFAB_CLOSET));
+        chairButton.onClick.AddListener(() => ChangePrefabTo(PREFAB_CHAIR));
+        couchButton.onClick.AddListener(() => ChangePrefabTo(PREFAB_COUCH));
+        closetButton.onClick.AddListener(() => ChangePrefabTo(PREFAB_CLOSET));
+        faucetButton.onClick.AddListener(() => ChangePrefabTo(PREFAB_FAUCET));
         screenshotButton.onClick.AddListener(() => TakeScreenshot());
         //dismissButton.onClick.AddListener(Dismiss);
     }
@@ -89,6 +92,9 @@ public class PlacementWithManySinglePrefabSelectionController : MonoBehaviour
             break;
             case PREFAB_CLOSET:
                 selectionText.text = "Selected: Closet";
+            break;
+            case PREFAB_FAUCET:
+                selectionText.text = "Selected: Faucet";
             break;
         }
     }
