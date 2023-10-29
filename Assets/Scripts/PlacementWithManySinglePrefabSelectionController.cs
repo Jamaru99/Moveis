@@ -38,7 +38,6 @@ public class PlacementWithManySinglePrefabSelectionController : MonoBehaviour
 
     [SerializeField]
     private Camera arCamera;
-
     private Vector2 touchPosition = default;
     private ARRaycastManager arRaycastManager;
     private bool onTouchHold = false;
@@ -117,6 +116,9 @@ public class PlacementWithManySinglePrefabSelectionController : MonoBehaviour
             Touch touch = Input.GetTouch(0);
             
             touchPosition = touch.position;
+
+            if(touchPosition.y < Screen.height / 4)
+                return;
 
             if(touch.phase == TouchPhase.Began)
             {
