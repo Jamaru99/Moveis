@@ -34,7 +34,7 @@ public class PlacementWithManySinglePrefabSelectionController : MonoBehaviour
     private Toggle deleteButton;
 
     [SerializeField]
-    private Text selectionText;
+    private GameObject selectedSquare;
 
     [SerializeField]
     private Camera arCamera;
@@ -64,15 +64,15 @@ public class PlacementWithManySinglePrefabSelectionController : MonoBehaviour
     void Awake() 
     {
         arRaycastManager = GetComponent<ARRaycastManager>();
-        chairButton.onClick.AddListener(() => ChangePrefabTo(PREFAB_CHAIR));
-        couchButton.onClick.AddListener(() => ChangePrefabTo(PREFAB_COUCH));
-        closetButton.onClick.AddListener(() => ChangePrefabTo(PREFAB_CLOSET));
-        faucetButton.onClick.AddListener(() => ChangePrefabTo(PREFAB_FAUCET));
+        chairButton.onClick.AddListener(() => ChangePrefabTo(PREFAB_CHAIR, chairButton.transform));
+        couchButton.onClick.AddListener(() => ChangePrefabTo(PREFAB_COUCH, couchButton.transform));
+        closetButton.onClick.AddListener(() => ChangePrefabTo(PREFAB_CLOSET, closetButton.transform));
+        faucetButton.onClick.AddListener(() => ChangePrefabTo(PREFAB_FAUCET, faucetButton.transform));
         screenshotButton.onClick.AddListener(() => TakeScreenshot());
         //dismissButton.onClick.AddListener(Dismiss);
     }
 
-    void ChangePrefabTo(string prefabName)
+    void ChangePrefabTo(string prefabName, Transform buttonPosition)
     {
         placedPrefab = Resources.Load<GameObject>($"Prefabs/{prefabName}");
 
@@ -80,22 +80,25 @@ public class PlacementWithManySinglePrefabSelectionController : MonoBehaviour
         {
             Debug.LogError($"Prefab with name {prefabName} could not be loaded, make sure you check the naming of your prefabs...");
         }
+
+        selectedSquare.transform.SetParent(buttonPosition);
+        selectedSquare.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 0);
         
-        switch(prefabName)
-        {
-            case PREFAB_CHAIR:
-                selectionText.text = "Selected: Chair";
-            break;
-            case PREFAB_COUCH:
-                selectionText.text = "Selected: Couch";
-            break;
-            case PREFAB_CLOSET:
-                selectionText.text = "Selected: Closet";
-            break;
-            case PREFAB_FAUCET:
-                selectionText.text = "Selected: Faucet";
-            break;
-        }
+        // switch(prefabName)
+        // {
+        //     case PREFAB_CHAIR:
+        //         selectionText.text = "Selected: Chair";
+        //     break;
+        //     case PREFAB_COUCH:
+        //         selectionText.text = "Selected: Couch";
+        //     break;
+        //     case PREFAB_CLOSET:
+        //         selectionText.text = "Selected: Closet";
+        //     break;
+        //     case PREFAB_FAUCET:
+        //         selectionText.text = "Selected: Faucet";
+        //     break;
+        // }
     }
 
     void TakeScreenshot() {
