@@ -6,14 +6,7 @@ using UnityEngine.XR.ARFoundation;
 [RequireComponent(typeof(ARRaycastManager))]
 public class PlacementWithManySinglePrefabSelectionController : MonoBehaviour
 {
-    [SerializeField]
     private GameObject placedPrefab;
-
-    [SerializeField]
-    private GameObject welcomePanel;
-
-    [SerializeField]
-    private Button dismissButton;
 
     [SerializeField]
     private Button chairButton;
@@ -69,7 +62,8 @@ public class PlacementWithManySinglePrefabSelectionController : MonoBehaviour
         closetButton.onClick.AddListener(() => ChangePrefabTo(PREFAB_CLOSET, closetButton.transform));
         faucetButton.onClick.AddListener(() => ChangePrefabTo(PREFAB_FAUCET, faucetButton.transform));
         screenshotButton.onClick.AddListener(() => TakeScreenshot());
-        //dismissButton.onClick.AddListener(Dismiss);
+        
+        ChangePrefabTo(PREFAB_COUCH, couchButton.transform);
     }
 
     void ChangePrefabTo(string prefabName, Transform buttonPosition)
@@ -83,37 +77,14 @@ public class PlacementWithManySinglePrefabSelectionController : MonoBehaviour
 
         selectedSquare.transform.SetParent(buttonPosition);
         selectedSquare.GetComponent<RectTransform>().anchoredPosition = new Vector2(0, 0);
-        
-        // switch(prefabName)
-        // {
-        //     case PREFAB_CHAIR:
-        //         selectionText.text = "Selected: Chair";
-        //     break;
-        //     case PREFAB_COUCH:
-        //         selectionText.text = "Selected: Couch";
-        //     break;
-        //     case PREFAB_CLOSET:
-        //         selectionText.text = "Selected: Closet";
-        //     break;
-        //     case PREFAB_FAUCET:
-        //         selectionText.text = "Selected: Faucet";
-        //     break;
-        // }
     }
 
     void TakeScreenshot() {
         ScreenCapture.CaptureScreenshot("MovelRA.png");
-    } 
-
-    private void Dismiss() => welcomePanel.SetActive(false);
+    }
 
     void Update()
     {
-        Debug.Log(deleteButton.isOn);
-        // do not capture events unless the welcome panel is hidden
-        if(welcomePanel.activeSelf)
-            return;
-
         if(Input.touchCount > 0)
         {
             Touch touch = Input.GetTouch(0);

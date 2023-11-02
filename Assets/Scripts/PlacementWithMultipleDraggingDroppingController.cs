@@ -24,8 +24,6 @@ public class PlacementWithMultipleDraggingDroppingController : MonoBehaviour
 
     private ARRaycastManager arRaycastManager;
 
-    private bool onTouchHold = false;
-
     private static List<ARRaycastHit> hits = new List<ARRaycastHit>();
 
     private PlacementObject lastSelectedObject;
