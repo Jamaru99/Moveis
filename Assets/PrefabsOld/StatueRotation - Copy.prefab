@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8013938991451042335}
   m_Layer: 0
-  m_Name: StatueRotation
+  m_Name: StatueRotation - Copy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

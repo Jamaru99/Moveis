@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.XR.ARFoundation;
+using System.Collections.Generic;
 
 public class EffectsManager : MonoBehaviour
 {
@@ -18,6 +19,9 @@ public class EffectsManager : MonoBehaviour
 
     [SerializeField]
     private ARPlaneManager aRPlaneManager;
+
+    [SerializeField]
+    private Text detectingPlanesText;
     
     // Start is called before the first frame update
     void Start()
@@ -51,6 +55,12 @@ public class EffectsManager : MonoBehaviour
         }
         togglePlaneDetectionButton.GetComponentInChildren<Text>().text = aRPlaneManager.enabled ? "Disable Detection" : "Enable Detection";
     }
+
+
+
+    // protected override void OnTrackablesChanged(List<ARPlane> added, List<ARPlane> updated, List<ARPlane> removed) {
+    //     Destroy(detectingPlanesText.gameObject);
+    // }
 
     void ToggleLights()
     {

@@ -80,7 +80,7 @@ public class PlacementWithManySinglePrefabSelectionController : MonoBehaviour
     }
 
     void TakeScreenshot() {
-        ScreenCapture.CaptureScreenshot("MovelRA.png");
+        ScreenCapture.CaptureScreenshot("/Android/obb/com.deliciastudio.furniture/MovelRA.png");
     }
 
     void Update()

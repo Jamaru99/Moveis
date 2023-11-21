@@ -375,7 +375,7 @@ RectTransform:
   - {fileID: 524114307}
   - {fileID: 1858340191}
   m_Father: {fileID: 479541506}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -453,12 +453,12 @@ RectTransform:
   m_Children:
   - {fileID: 627150460}
   m_Father: {fileID: 479541506}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 736, y: -496}
-  m_SizeDelta: {x: 252.1, y: 70.5}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -383, y: 56}
+  m_SizeDelta: {x: 252.09998, y: 70.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &117120078
 MonoBehaviour:
@@ -708,6 +708,7 @@ MonoBehaviour:
   toggleShadowsButton: {fileID: 524114308}
   togglePlaneDetectionButton: {fileID: 117120078}
   aRPlaneManager: {fileID: 758132663}
+  detectingPlanesText: {fileID: 0}
 --- !u!1 &191891458
 GameObject:
   m_ObjectHideFlags: 0
@@ -741,7 +742,7 @@ RectTransform:
   - {fileID: 139895612}
   - {fileID: 8751172}
   m_Father: {fileID: 479541506}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -898,11 +899,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 479541506}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -83, y: -696}
+  m_AnchoredPosition: {x: -6, y: -919}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &203629494
@@ -1089,7 +1090,7 @@ RectTransform:
   m_Children:
   - {fileID: 1926408842}
   m_Father: {fileID: 479541506}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -1483,6 +1484,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 805694712}
+  - {fileID: 1148964601}
   - {fileID: 117120077}
   - {fileID: 203629493}
   - {fileID: 1682675554}
@@ -2102,8 +2104,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b096347817dfc469b8677f99554d1038, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  placedPrefab: {fileID: 8013938991451042332, guid: 594f0bb097c27e343bbe5223819fa0f1,
-    type: 3}
   chairButton: {fileID: 2081383075}
   closetButton: {fileID: 86934740}
   couchButton: {fileID: 1920043040}
@@ -2405,9 +2405,89 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.0000065108507, y: 0}
+  m_AnchoredPosition: {x: 0.0004516963, y: 0}
   m_SizeDelta: {x: -213.3564, y: 300}
   m_Pivot: {x: 0, y: 1}
+--- !u!1 &1148964600
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1148964601}
+  - component: {fileID: 1148964603}
+  - component: {fileID: 1148964602}
+  m_Layer: 5
+  m_Name: TextoDetectandoPlanos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1148964601
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148964600}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 479541506}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -7, y: -382}
+  m_SizeDelta: {x: -2307.9, y: -1369.5}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1148964602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148964600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 27
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 45
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Detectando Planos
+--- !u!222 &1148964603
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1148964600}
+  m_CullTransparentMesh: 0
 --- !u!1 &1170634158
 GameObject:
   m_ObjectHideFlags: 0
@@ -2774,8 +2854,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 950151475}
   m_HandleRect: {fileID: 950151474}
   m_Direction: 0
-  m_Value: 0
-  m_Size: 0.9858719
+  m_Value: -0.00003860445
+  m_Size: 0.98587805
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3025,7 +3105,7 @@ RectTransform:
   m_Children:
   - {fileID: 2099344861}
   m_Father: {fileID: 479541506}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
